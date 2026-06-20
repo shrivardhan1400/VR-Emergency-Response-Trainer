@@ -10,9 +10,23 @@ public class CPRLogic : MonoBehaviour
 
     bool isRunning = true;
 
+    // 🎧 AUDIO
+    public AudioSource audioSource;
+    public AudioClip idleSound;
+    public AudioClip pressSound;
+    public AudioClip successSound;
+
     void Start()
     {
         startTime = Time.time;
+
+        // 🔇 Start idle sound
+        if (idleSound != null)
+        {
+            audioSource.clip = idleSound;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
     }
 
     public void RegisterPress()
@@ -20,6 +34,12 @@ public class CPRLogic : MonoBehaviour
         if (!isRunning) return;
 
         pressCount++;
+
+        // 🔊 Play press sound
+        if (pressSound != null)
+        {
+            audioSource.PlayOneShot(pressSound);
+        }
 
         if (uiManager != null)
         {
@@ -31,8 +51,8 @@ public class CPRLogic : MonoBehaviour
     {
         if (!isRunning) return;
 
-        // TEMP TEST (remove when VR is connected)
-        if (Input.GetKeyDown(KeyCode.Space))
+        // 👉 Use mouse or space (your choice)
+        if (Input.GetMouseButtonDown(0))
         {
             RegisterPress();
         }
@@ -59,7 +79,15 @@ public class CPRLogic : MonoBehaviour
                 {
                     uiManager.ShowFeedback("Good CPR", Color.green, 3f, false);
 
-                    // 🔥 STOP COMPLETELY
+                    // ❤️ SUCCESS SOUND
+                    if (successSound != null)
+                    {
+                        audioSource.Stop();
+                        audioSource.clip = successSound;
+                        audioSource.loop = true;
+                        audioSource.Play();
+                    }
+
                     isRunning = false;
                 }
             }
