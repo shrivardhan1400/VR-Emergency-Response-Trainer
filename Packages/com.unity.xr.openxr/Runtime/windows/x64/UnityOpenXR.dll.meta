@@ -11,34 +11,14 @@ PluginImporter:
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-    Android:
-      enabled: 0
-      settings:
-        CPU: ARMv7
     Any:
       enabled: 0
-      settings:
-        Exclude Android: 1
-        Exclude Editor: 0
-        Exclude Linux64: 0
-        Exclude OSXUniversal: 0
-        Exclude Win: 1
-        Exclude Win64: 0
-        Exclude WindowsStoreApps: 1
+      settings: {}
     Editor:
       enabled: 1
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
-        OS: Windows
-    Linux64:
-      enabled: 1
-      settings:
-        CPU: x86_64
-    OSXUniversal:
-      enabled: 1
-      settings:
-        CPU: AnyCPU
     Win:
       enabled: 0
       settings:
@@ -46,15 +26,11 @@ PluginImporter:
     Win64:
       enabled: 1
       settings:
-        CPU: AnyCPU
+        CPU: x86_64
     WindowsStoreApps:
       enabled: 0
       settings:
-        CPU: AnyCPU
-        DontProcess: false
-        PlaceholderPath: 
-        SDK: AnySDK
-        ScriptingBackend: AnyScriptingBackend
+        CPU: x64
   userData: 
   assetBundleName: 
   assetBundleVariant: 
