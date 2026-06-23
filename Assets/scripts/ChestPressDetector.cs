@@ -2,26 +2,30 @@ using UnityEngine;
 
 public class ChestPressDetector : MonoBehaviour
 {
-    [SerializeField] private PressLogic logic;
+    public CPRLogic cprLogic;
 
-    private float lastPressTime;
-    private float cooldown = 0.25f;
+    private bool isPressed = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag("VRHand"))
-            return;
-
-        if (Time.time - lastPressTime < cooldown)
-            return;
-
-        lastPressTime = Time.time;
-
-        Debug.Log("Pressed");
-
-        if (logic != null)
+        if (other.CompareTag("Hand") && !isPressed)
         {
-            logic.RegisterPress();
+            isPressed = true;
+
+            Debug.Log("Chest Press Detected");
+
+            if (cprLogic != null)
+            {
+                cprLogic.RegisterPress();
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Hand"))
+        {
+            isPressed = false;
         }
     }
 }

@@ -2,26 +2,25 @@
 
 public class CPRLogic : MonoBehaviour
 {
-    int pressCount = 0;
-    float startTime;
-    float duration = 15f;
-
     public UIManager uiManager;
 
-    bool isRunning = true;
-
-    // 🎧 AUDIO
     public AudioSource audioSource;
     public AudioClip idleSound;
     public AudioClip pressSound;
     public AudioClip successSound;
 
+    public int pressCount = 0;
+
+    private float startTime;
+    private float duration = 10f;
+    private bool isRunning = false;
+
     void Start()
     {
         startTime = Time.time;
+        isRunning = true;
 
-        // 🔇 Start idle sound
-        if (idleSound != null)
+        if (idleSound != null && audioSource != null)
         {
             audioSource.clip = idleSound;
             audioSource.loop = true;
@@ -35,27 +34,18 @@ public class CPRLogic : MonoBehaviour
 
         pressCount++;
 
-        // 🔊 Play press sound
-        if (pressSound != null)
+        if (uiManager != null)
+            uiManager.UpdateCount(pressCount);
+
+        if (pressSound != null && audioSource != null)
         {
             audioSource.PlayOneShot(pressSound);
-        }
-
-        if (uiManager != null)
-        {
-            uiManager.UpdateCount(pressCount);
         }
     }
 
     void Update()
     {
         if (!isRunning) return;
-
-        // 👉 Use mouse or space (your choice)
-        if (Input.GetMouseButtonDown(0))
-        {
-            RegisterPress();
-        }
 
         float timePassed = Time.time - startTime;
 
@@ -68,35 +58,26 @@ public class CPRLogic : MonoBehaviour
                 if (rate < 100)
                 {
                     uiManager.ShowFeedback("Too Slow", Color.red, 2f, true);
-                    ResetSystem();
                 }
                 else if (rate > 120)
                 {
                     uiManager.ShowFeedback("Too Fast", Color.red, 2f, true);
-                    ResetSystem();
                 }
                 else
                 {
                     uiManager.ShowFeedback("Good CPR", Color.green, 3f, false);
 
-                    // ❤️ SUCCESS SOUND
-                    if (successSound != null)
+                    if (successSound != null && audioSource != null)
                     {
                         audioSource.Stop();
                         audioSource.clip = successSound;
-                        audioSource.loop = true;
+                        audioSource.loop = false;
                         audioSource.Play();
                     }
-
-                    isRunning = false;
                 }
             }
-        }
-    }
 
-    void ResetSystem()
-    {
-        pressCount = 0;
-        startTime = Time.time;
+            isRunning = false;
+        }
     }
 }

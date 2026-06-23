@@ -318,3 +318,528 @@ Total: 186.824200 ms (FindLiveObjects: 18.431900 ms CreateObjectMapping: 2.63570
 
 ========================================================================
 Received Prepare
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 64.21 ms, found 13 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12570 unused Assets / (19.3 MB). Loaded Objects now: 13520.
+Memory consumption went from 244.2 MB to 224.8 MB.
+Total: 205.222300 ms (FindLiveObjects: 5.980900 ms CreateObjectMapping: 9.664500 ms MarkObjects: 170.728300 ms  DeleteObjects: 18.845900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 115063.133492 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/table_trash_metallic.tga
+  importAddress: Guid(5bc4d919e3971e541a9513d64071b02b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/table_trash_metallic.tga using Guid(5bc4d919e3971e541a9513d64071b02b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (Import Result ID: 'c054b7506733a87ae8fcc9fdf8da7900') in 0.4315028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb9df85f74159eaa20bebd69bbb73115 DependenciesID=c6f65149e75cf10be7a3a2f4d0450f33 StaticDependenciesID=5e9dbc014701f5dd1c6e01258af44e12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Samples/XR Hands/1.8.0/HandVisualizer/Materials/MaterialPipelineHandler.asset
+  importAddress: Guid(e22d037d5d9286644b4b81a8b91b5ee5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Hands/1.8.0/HandVisualizer/Materials/MaterialPipelineHandler.asset using Guid(e22d037d5d9286644b4b81a8b91b5ee5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd48ff1e5ed13d675f8f24a0b88fbaa90') in 0.1273462 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b10f7726f0d85d802b94f182b477b76 DependenciesID=66178750d8d5137e2ffbf3366bd0d538 StaticDependenciesID=c1159a23bf6378ba74e91f302239f40c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/metal_sink_basecolor.tga
+  importAddress: Guid(a4a2746863dcd8844a3725ebc32c184a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/metal_sink_basecolor.tga using Guid(a4a2746863dcd8844a3725ebc32c184a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a8da21bbb6310edd13a0d4a63ede296') in 0.0538543 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5ca60258894998d6208036d440c7e95 DependenciesID=223108d92ae75dd76e6478d8406962c0 StaticDependenciesID=2c0d0166188c8df50cd942c575623fc3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Morgue Room PBR/Models/floor/Materials/floor_01_basecolor.tga
+  importAddress: Guid(8374b2c20a14d614c826c2370adc2373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/floor/Materials/floor_01_basecolor.tga using Guid(8374b2c20a14d614c826c2370adc2373) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'afbcfe5300cb239bda38e21f7447db83') in 0.0798613 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfeaab9199372129d26453d6726c62ff DependenciesID=482033c5f5efceea514ff79d1bfb391e StaticDependenciesID=38c57593130a3abfe539951b3b2837a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Hands/1.8.0/HandVisualizer/README.md
+  importAddress: Guid(b0057a2d371351e41ae711f975c741e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Hands/1.8.0/HandVisualizer/README.md using Guid(b0057a2d371351e41ae711f975c741e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9929267a158545468ddd0f6b694a625') in 0.0440995 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cfe92667a9ecda94c0ef0d366ee5788 DependenciesID=77378714f28fb29f0746b38f4766f339 StaticDependenciesID=2635c3d65f5e95396261c7ad04695c4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Morgue Room PBR/Models/wall/Materials/wall_metallic.tga
+  importAddress: Guid(cdca89024616e6045abdcb180efcc5cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/wall/Materials/wall_metallic.tga using Guid(cdca89024616e6045abdcb180efcc5cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0da464b5b7bb317ce16799d09fea0c2e') in 0.1488398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c093fa160ccbb822787461a1f5065271 DependenciesID=58a2e53740985cde851d45368d356524 StaticDependenciesID=763da37b036cc254b8d223c223261908 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003816 seconds.
+  path: Assets/Samples/XR Hands/1.8.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab
+  importAddress: Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Hands/1.8.0/HandVisualizer/Prefabs/Left Hand Tracking.prefab using Guid(b3ed8a0a703ebd34a9e44ed3d9f1fcf6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ff8ca9bf5ce99143bf5935939a554fa') in 0.2175589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f09f57a148ba44c54a383e205c26130 DependenciesID=d165dd4a1089120015aab6531a54640c StaticDependenciesID=215b9c0cf434c9ca24cf217f921bf808 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Hands/1.8.0/HandVisualizer/Scripts/MaterialPipelineHandler.cs
+  importAddress: Guid(6772a216ed6f29c42abef904c7d6940d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Hands/1.8.0/HandVisualizer/Scripts/MaterialPipelineHandler.cs using Guid(6772a216ed6f29c42abef904c7d6940d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '992721c39ca4c85b0498d77c6c2cbfe1') in 0.0325518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4cbf10be1091d8274324e36ad6897fdf DependenciesID=f8b1698af76f98d51cc41304ccb02f81 StaticDependenciesID=6aa1e32f4587bde4e091a07a5363e37b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Morgue Room PBR/Models/wall/wall_doubledoor_piece01.fbx
+  importAddress: Guid(805c8b6da73978744aab3e8ba63bb9ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/wall/wall_doubledoor_piece01.fbx using Guid(805c8b6da73978744aab3e8ba63bb9ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35a792323aacc9b2c0f3f95e37f1cc56') in 0.7687846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12afe18e5f2f1f5d5cdb4990ffcf5f1d DependenciesID=5b8d133a60d951afbbe5cbba9fdb51b4 StaticDependenciesID=617c28e21ee98255ceba95906871ef33 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Morgue Room PBR/Models/floor/Materials/floor_01_normal.tga
+  importAddress: Guid(d2631864f3330c34eac17e7851eb3138) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/floor/Materials/floor_01_normal.tga using Guid(d2631864f3330c34eac17e7851eb3138) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b7f571b886da32f74df7cb50104cb795') in 0.1271561 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3525906f54a6df34777c189d5e61b2a9 DependenciesID=72f81681422671d0b7b9aa67f78af958 StaticDependenciesID=8488af3660f255964305adac9524d81e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Morgue Room PBR/Models/props/trash_can.fbx
+  importAddress: Guid(fc2c4c6b3f214fb41aa203e2cf5b5e37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/trash_can.fbx using Guid(fc2c4c6b3f214fb41aa203e2cf5b5e37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a1149c3d39c4324930a8ef7c8d17d924') in 0.0794929 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56cc9d4eb293e8bff15a4f827577611b DependenciesID=36f7997cc896e622acfcd2d0859c0585 StaticDependenciesID=bc667cdeafe072d77b574ac4df3e95bc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Morgue Room PBR/info_morgueroom.txt
+  importAddress: Guid(a50d67568bf3c84459c16a0a5b760283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/info_morgueroom.txt using Guid(a50d67568bf3c84459c16a0a5b760283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3282e7dd3beb186587e26f8548ece87') in 0.064294 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51d11f8db890f5a5717a79c3b3b63bcb DependenciesID=d31adfbcae628726cfaa2734e21f5617 StaticDependenciesID=d1e284a4a25184cae0d4268b93ae5a9a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/instrument_trolley.prefab
+  importAddress: Guid(8cdaaac046ad650478307f51f1f7886e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/instrument_trolley.prefab using Guid(8cdaaac046ad650478307f51f1f7886e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '281bacf03e6dbfddae745c1ae9caa0cc') in 0.0900972 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eaa5f45b62e6abddfb3110d1593f86d8 DependenciesID=dfa57e67c2810db47b5c3fdf7742c8c5 StaticDependenciesID=475bd3702c7520d6f1f059043cd04437 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Samples/XR Hands/1.8.0/HandVisualizer/Prefabs/Hand Debug Visualizer.prefab
+  importAddress: Guid(c8146e7694b9541089b8dbaa8a7d59d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Hands/1.8.0/HandVisualizer/Prefabs/Hand Debug Visualizer.prefab using Guid(c8146e7694b9541089b8dbaa8a7d59d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68d96950ade5644b6d7f130db6d11966') in 0.1250328 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7cd3e687b0b746b3f534aa6c8d66360f DependenciesID=e36b352c5e91ee0178bffd5d2c500719 StaticDependenciesID=c3dacb4d7cb81ebab65ad970fc0640bc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 292
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Morgue Room PBR/Models/wall/doubledoor_frame01.fbx
+  importAddress: Guid(1109c1cb853e90c42af15673e7262966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/wall/doubledoor_frame01.fbx using Guid(1109c1cb853e90c42af15673e7262966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '17515f09160b852a85331d9f5fec30cc') in 0.1352356 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53e5a1b17aa0ddf86796c2e3766867fd DependenciesID=95e8c4b569c8bce9f5a703ac075b63d2 StaticDependenciesID=a2fdf19ab13b3510b804f4df4931126c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/photo_frame_normal.tga
+  importAddress: Guid(586ff35a6113cb1458714419c6b8d72d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/photo_frame_normal.tga using Guid(586ff35a6113cb1458714419c6b8d72d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd386babca4bc889e0d291532e80e2b7b') in 0.2117557 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=379d6ddfd6a265077386270ac0f55c80 DependenciesID=d7516d0f5cd0032bc450162b04c6afe1 StaticDependenciesID=3f30e8531e4efc35086936a409a3178d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Morgue Room PBR/Models/floor/Decals/ralo_basecolor.tga
+  importAddress: Guid(8b72ec40644a4d744905c998dfe969c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/floor/Decals/ralo_basecolor.tga using Guid(8b72ec40644a4d744905c998dfe969c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a0af4c94d51d328f25afa67b453eb889') in 0.3486749 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5912e83e155a9196ad0487cb356a25d2 DependenciesID=fef5c19904c7aec549b0b90fde9e9002 StaticDependenciesID=39707eb512307967264ebeb4651c24bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Morgue Room PBR/Models/props/glove_dispenser.fbx
+  importAddress: Guid(e5239a8c4fd0bc34bbabb952ccb0cc2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/glove_dispenser.fbx using Guid(e5239a8c4fd0bc34bbabb952ccb0cc2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bff4e94ed19fc7f113562ff4b93ce9f7') in 0.0888233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0635acb4925dcb40a8825d23568cdc9 DependenciesID=c7e16f21add58c5518a57967ddf0af12 StaticDependenciesID=fb85fd2c7e852550f4dd40caf7bd98a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/glass_jar.prefab
+  importAddress: Guid(f531eff400a90054dbf121fa394b2965) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/glass_jar.prefab using Guid(f531eff400a90054dbf121fa394b2965) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb94d7aaa5f3d49bf2a59a0011cd722a') in 0.1283358 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8de0aec5849dc21479f7082f509c51a DependenciesID=c230aa22b88c3cc04bfb3967fc6c681c StaticDependenciesID=11fc90b8e0e5b8246e7926177811cf73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/glass_jar_specular.tga
+  importAddress: Guid(1e2466dfc69ac67488b1f289d4595663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/glass_jar_specular.tga using Guid(1e2466dfc69ac67488b1f289d4595663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce05816ce60ecf900064a96aa45d261d') in 0.1847551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bec24566fa3462cb5b28cd137f435d9b DependenciesID=b9be9db2961a438b8319d071353c897b StaticDependenciesID=e34b94bc6dc4d8c6413692b5b5da97e7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Morgue Room PBR/Models/wall/Materials/wall2_normal.tga
+  importAddress: Guid(c3ee295756c9b6540b01d1557c0eb28d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/wall/Materials/wall2_normal.tga using Guid(c3ee295756c9b6540b01d1557c0eb28d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a338d25929b2b9ef1680524ce51ff813') in 0.3431696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f134aba2f2273fe881ea2b42bd846b9 DependenciesID=405fe6e6e113c4e133e175af761c26d0 StaticDependenciesID=1b511cc2fe23afd8ec8ab790b77d52dd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002689 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/desk_chair_smoothness.tga
+  importAddress: Guid(c0b0b67532bea4543a58f022fef3d92a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/desk_chair_smoothness.tga using Guid(c0b0b67532bea4543a58f022fef3d92a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a3076abd8e1770501e48b8caee0c5cf') in 0.2806487 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6b843c528c6d4326ae12cbed6286319 DependenciesID=c1f9bffc11253f99c5334831b9d93e88 StaticDependenciesID=f84355e788cb0a4187528dfb7ce0eed2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x16.fbx
+  importAddress: Guid(1fdfe0a1ed45e5a46a7c30664cca38c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x16.fbx using Guid(1fdfe0a1ed45e5a46a7c30664cca38c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb35c7bd9daa284093304a8571f9ac7f') in 0.207133 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54cca3421df55fd0c82ff53546da9e62 DependenciesID=6d85cb1765b76f87fd1430fdbd63b9ed StaticDependenciesID=e6bbb12c9cbe44db64ab674010a98df8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/brain_jar.prefab
+  importAddress: Guid(759f41d0d03c01c42891d874400f8ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/brain_jar.prefab using Guid(759f41d0d03c01c42891d874400f8ffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3ae2c4358d11ac4e5c172cfa7dce661') in 0.1879695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=580550c2ec192d0c47495c06071a6fa9 DependenciesID=92926d305a0d9c3bf7e9349745d4fe77 StaticDependenciesID=c4110a028e0d1ff434b4e86b937ba35f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Morgue Room PBR/Models/props/ceramic_sink.fbx
+  importAddress: Guid(7cdbbff042a3dd4439358ffcfc7194fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/ceramic_sink.fbx using Guid(7cdbbff042a3dd4439358ffcfc7194fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4905e287c0ff5531961b33ba8b457669') in 0.1125875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f0d01c1def7a33a954850f837f45ee3 DependenciesID=d5a5efe873f14b4fdc4558f4f055307b StaticDependenciesID=ec7591dbd62960452e1d758fd025c9f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/light_switch.prefab
+  importAddress: Guid(815d7be770ecebf4fab949961c955692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/light_switch.prefab using Guid(815d7be770ecebf4fab949961c955692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93f6ba0c7d4066328eb676e93c6ec75e') in 0.1243331 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc894ab6e876ffd0dd9669d17e715a82 DependenciesID=aa5b37996349992cc96df59825c653b7 StaticDependenciesID=f42352143950ae10c2afde6b337675dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/autopsy_table.prefab
+  importAddress: Guid(ab4ced4914b68784d8bf02aba7918f90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/autopsy_table.prefab using Guid(ab4ced4914b68784d8bf02aba7918f90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9789c01611047904c07bcd396391a80d') in 0.1362452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=806c6754f9a6745e3f45507f01cc517a DependenciesID=0708f040ab4168326940249f6925b7f3 StaticDependenciesID=003d42995aeeb5dd7085412b0147743e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/ceramic_sink.prefab
+  importAddress: Guid(38c8dc4fecdb792408805686d9bf2734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/ceramic_sink.prefab using Guid(38c8dc4fecdb792408805686d9bf2734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94c9644b7c09ddc10d33baf2314c9f8e') in 0.2600754 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=394cf784e1565d3394d4543ba9543a44 DependenciesID=c35bb1c1daca16611cfdde0e5cc2196b StaticDependenciesID=5d7083bf9d72c9532aaf8530ab7d4e42 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/walls/wall_doubledoor_piece01.prefab
+  importAddress: Guid(725159f8098f5a441afc3603e317460c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/walls/wall_doubledoor_piece01.prefab using Guid(725159f8098f5a441afc3603e317460c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '36ca02e9be6a82a72e39560da8f53121') in 0.1132692 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1835115ff29ffd9a7c4339030fc3340a DependenciesID=2e0a109d9b5d757927efeb52651ff06b StaticDependenciesID=e56f579075fc3674c7372fa764240afa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Morgue Room PBR/Models/props/notebook.fbx
+  importAddress: Guid(7aedcf377a2595a40bcc0f5331df325e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/notebook.fbx using Guid(7aedcf377a2595a40bcc0f5331df325e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb892b6d4370b08914a139848cdd3ac1') in 0.0681279 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3fdb0d7f8e2e2a75049d402d6e7adc7e DependenciesID=187484a4e4b8561451a48b06dbc5cfc2 StaticDependenciesID=aa2443f237f446b45e8ecbba2df2e520 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/glass_jar_diffuse.tga
+  importAddress: Guid(910a77057274fc245bb1cd9da42b0cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/glass_jar_diffuse.tga using Guid(910a77057274fc245bb1cd9da42b0cee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e1741b25630d1d9a89de9151a02d25a') in 0.1231058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9626ca52169b506bfa1fc8a463cb3c4d DependenciesID=d0e7ba7429c23b6e25a1e733dc43f63a StaticDependenciesID=0295d7c0fd83ac6d2993a2f8c6bd4bdd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_4x16.prefab
+  importAddress: Guid(0ce69b79c4dd2a14ba6f4427c8436e59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_4x16.prefab using Guid(0ce69b79c4dd2a14ba6f4427c8436e59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '263195e437bffedbfcbed3963b149d5d') in 0.0871968 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba60a8c09d8cef802f1080fe1a235537 DependenciesID=26c507a4bdb6a1112a9b4d4146ebc9d3 StaticDependenciesID=d6aff71ff1c753668ab764dc015f1827 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/desk_chair.prefab
+  importAddress: Guid(707c8e73e995723438a43fc2201d7493) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/desk_chair.prefab using Guid(707c8e73e995723438a43fc2201d7493) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68dd9176ab2957d5e3d4da78594283bb') in 0.09126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d6bbd5104b76efd70e8540b7651a250 DependenciesID=2c15f260092f6ca36c611eaff5eb178d StaticDependenciesID=9b0dce8f14b4aeab32ea2e1e524eaeee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Morgue Room PBR/morgue scene/morgue
+  importAddress: Guid(46d574bd5e878134abc04ded4be7ea27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/morgue scene/morgue using Guid(46d574bd5e878134abc04ded4be7ea27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6930044ad5d2ee11959de20debfab8f4') in 0.0607442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f41a7b3ebe41f3f2e1bd11aaebadeaee DependenciesID=2a1239a5b8185fb3a0a8a2bd56874b63 StaticDependenciesID=f5bd979ff55d9d43ef38ad0e4e2293ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Morgue Room PBR/Models/props/glass_jar.fbx
+  importAddress: Guid(53860372cc9c1a24399934d563a7f11f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/glass_jar.fbx using Guid(53860372cc9c1a24399934d563a7f11f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1da21387273a6afaf7198e2ebadf083c') in 0.1826996 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b73990a4c5a80b4ffe0f9329b891018c DependenciesID=2d31f66d6897ce7606aede0b25e0a889 StaticDependenciesID=8e588be633baa6b51b837a254fef16fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/props/ceiling_light.prefab
+  importAddress: Guid(947e113398f058643a47464fff50cae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/props/ceiling_light.prefab using Guid(947e113398f058643a47464fff50cae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ef20181118ae50916b20a5fbc929949') in 0.0853769 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4f90def81a8e1f0e4c85eeeacf082a6 DependenciesID=1a9ab2a72ed4b0ad6bdf3ef6731969e2 StaticDependenciesID=49d1c7986711c6d84d86c20c89927704 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Morgue Room PBR/Models/props/desk_lamp.fbx
+  importAddress: Guid(0c053e006a01e754d8ce5c867bca5263) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/desk_lamp.fbx using Guid(0c053e006a01e754d8ce5c867bca5263) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '955857e6560030219e679da1eccabd6d') in 0.170726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f231a4b640f7c96bbe2324f68318d8d DependenciesID=090fbf374ab9257d142348826fab29a5 StaticDependenciesID=557b3a56cb8003d95b8dc6014fe622ba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/organs_height.tga
+  importAddress: Guid(6f9fe947faab17e4293ed162150ec72e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/organs_height.tga using Guid(6f9fe947faab17e4293ed162150ec72e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f0c5b655fdc06e20097a371d3f6c8da6') in 0.0635973 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23b6f2f3d01ff6ee690daac65613c6d9 DependenciesID=fb7f2cacc5e3bc195575b2e6823ab37d StaticDependenciesID=a0d6269c3b61b0c89cedd71c74d58880 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_8x16.prefab
+  importAddress: Guid(24862cb6c23a09a4bafd3f687430b163) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_8x16.prefab using Guid(24862cb6c23a09a4bafd3f687430b163) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd9ce28478e5390a002082d23775589df') in 0.2900919 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0cfe6611d2449e942aec0d2626fde2cc DependenciesID=4d9a1db0753a5181694578b33c516886 StaticDependenciesID=6e703383b6a0ae65d7013859fbaedcc3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/glass_jar_mat.mat
+  importAddress: Guid(0a55260e7bd4a3340940f01c15e730c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/glass_jar_mat.mat using Guid(0a55260e7bd4a3340940f01c15e730c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa600fa2d4ae7fc0897d9a52199bfb62') in 0.7251092 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d73da4645b1ffa335bcfa167c288d627 DependenciesID=8728d043cbe76014e4f5831d92f291ec StaticDependenciesID=2e4fbdd230d636acc4f890f369454cad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Morgue Room PBR/Models/wall/Materials/wall_piece_mat01.mat
+  importAddress: Guid(460ad7a7b1ff6df4fa7b847f7e1660f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/wall/Materials/wall_piece_mat01.mat using Guid(460ad7a7b1ff6df4fa7b847f7e1660f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '499135c8c34322886a7a7c4f69fa3266') in 0.7673008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e90aa01e1f4de6008204e754195d98a DependenciesID=2aee798087fe400cd8e52e28535ed996 StaticDependenciesID=8945f6dba96ad61538e25fe392ff8869 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/photo_frame_basecolor.tga
+  importAddress: Guid(366562de2a5444541a0973b1ed054fb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/photo_frame_basecolor.tga using Guid(366562de2a5444541a0973b1ed054fb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86c3de0bf7c4e2a843dae10042a392ee') in 0.1316627 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b92baf14fec3eb695e8aed23e718602d DependenciesID=81f06bdb058ee8a7834d1ba2b3d9be26 StaticDependenciesID=74f87ddf9e8e7f93dde52ac1a08e8190 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Morgue Room PBR/Models/props/Materials/level_objects_emissive.tga
+  importAddress: Guid(0f0675eb1cc579c4abeb3d41b8a54d04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Morgue Room PBR/Models/props/Materials/level_objects_emissive.tga using Guid(0f0675eb1cc579c4abeb3d41b8a54d04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e042e25d16aff9f009ab59f9ed65a4c9') in 1.3480495 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9f6fd8a6c5d48364508550667c4767c DependenciesID=3fee26e11c3f5f2e6ac715ee9d6f27df StaticDependenciesID=76badf89c5660c9f34831219ebca123f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AI.Assistant.Integrations.Sample.Editor.dll at Library/ScriptAssemblies/Unity.AI.Assistant.Integrations.Sample.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Editor.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.AppUI.Tests.dll at Library/ScriptAssemblies/Unity.AppUI.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 83.85 ms, found 13 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 158.01 ms, found 13 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 17.221 seconds
+Domain Reload Profiling: 24487ms
+	BeginReloadAssembly (1921ms)
+		DisableScriptedObjects (33ms)
+		CreateAndSetChildDomain (842ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (608ms)
+	LoadAllAssembliesAndSetupDomain (4562ms)
+		LoadAssemblies (3085ms)
+		AnalyzeDomain (2121ms)
+			TypeCache.Refresh (76ms)
+			BuildScriptInfoCaches (1928ms)
+			ResolveRequiredComponents (71ms)
+	FinalizeReload (17223ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			BeforeProcessingInitializeOnLoad (840ms)
+			ProcessInitializeOnLoadAttributes (6752ms)
+			ProcessInitializeOnLoadMethodAttributes (3466ms)
+			AfterProcessingInitializeOnLoad (33ms)
+		AwakeInstancesAfterBackupRestoration (101ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 120.05 ms, found 13 plugins.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12836 unused Assets / (22.5 MB). Loaded Objects now: 13552.
+Memory consumption went from 311.6 MB to 289.1 MB.
+Total: 138.133700 ms (FindLiveObjects: 5.950600 ms CreateObjectMapping: 3.450500 ms MarkObjects: 102.412000 ms  DeleteObjects: 26.316800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
