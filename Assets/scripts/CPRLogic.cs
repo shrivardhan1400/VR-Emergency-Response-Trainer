@@ -2,82 +2,136 @@
 
 public class CPRLogic : MonoBehaviour
 {
+    [Header("References")]
     public UIManager uiManager;
-
     public AudioSource audioSource;
-    public AudioClip idleSound;
+
+    [Header("Audio Clips")]
     public AudioClip pressSound;
     public AudioClip successSound;
 
-    public int pressCount = 0;
+    [Header("CPR Settings")]
+    public float sessionTime = 120f;
+    public float targetMinBPM = 100f;
+    public float targetMaxBPM = 120f;
 
-    private float startTime;
-    private float duration = 10f;
-    private bool isRunning = false;
+    private float timer;
+    private int pressCount;
+    private float bpm;
+    private bool sessionRunning = true;
 
     void Start()
     {
-        startTime = Time.time;
-        isRunning = true;
-
-        if (idleSound != null && audioSource != null)
-        {
-            audioSource.clip = idleSound;
-            audioSource.loop = true;
-            audioSource.Play();
-        }
-    }
-
-    public void RegisterPress()
-    {
-        if (!isRunning) return;
-
-        pressCount++;
+        timer = sessionTime;
+        pressCount = 0;
 
         if (uiManager != null)
-            uiManager.UpdateCount(pressCount);
-
-        if (pressSound != null && audioSource != null)
         {
-            audioSource.PlayOneShot(pressSound);
+            uiManager.UpdatePressCount(0);
+            uiManager.UpdateTimer(timer);
+            uiManager.UpdateBPM(0);
+            uiManager.ShowStatus("Start CPR", Color.green);
         }
     }
 
     void Update()
     {
-        if (!isRunning) return;
+        if (!sessionRunning)
+            return;
 
-        float timePassed = Time.time - startTime;
+        timer -= Time.deltaTime;
 
-        if (timePassed >= duration)
+        if (timer < 0)
+            timer = 0;
+
+        if (uiManager != null)
+            uiManager.UpdateTimer(timer);
+
+        float elapsed = sessionTime - timer;
+
+        if (elapsed > 0)
         {
-            float rate = (pressCount / duration) * 60f;
+            bpm = (pressCount / elapsed) * 60f;
 
             if (uiManager != null)
-            {
-                if (rate < 100)
-                {
-                    uiManager.ShowFeedback("Too Slow", Color.red, 2f, true);
-                }
-                else if (rate > 120)
-                {
-                    uiManager.ShowFeedback("Too Fast", Color.red, 2f, true);
-                }
-                else
-                {
-                    uiManager.ShowFeedback("Good CPR", Color.green, 3f, false);
-
-                    if (successSound != null && audioSource != null)
-                    {
-                        audioSource.Stop();
-                        audioSource.clip = successSound;
-                        audioSource.loop = false;
-                        audioSource.Play();
-                    }
-                }
-            }
-
-            isRunning = false;
+                uiManager.UpdateBPM(bpm);
         }
+
+        if (timer <= 0)
+        {
+            EndSession();
+        }
+    }
+
+    public void RegisterPress()
+    {
+        if (!sessionRunning)
+            return;
+
+        pressCount++;
+
+        if (uiManager != null)
+            uiManager.UpdatePressCount(pressCount);
+
+        if (audioSource != null && pressSound != null)
+            audioSource.PlayOneShot(pressSound);
+
+        if (bpm < targetMinBPM)
+        {
+            uiManager.ShowStatus("Too Slow", Color.red);
+        }
+        else if (bpm > targetMaxBPM)
+        {
+            uiManager.ShowStatus("Too Fast", Color.yellow);
+        }
+        else
+        {
+            uiManager.ShowStatus("Good Compression", Color.green);
+        }
+    }
+
+    void EndSession()
+    {
+        sessionRunning = false;
+
+        if (audioSource != null && successSound != null)
+            audioSource.PlayOneShot(successSound);
+
+        if (bpm >= targetMinBPM && bpm <= targetMaxBPM)
+        {
+            uiManager.ShowStatus("CPR Successful", Color.green);
+        }
+        else
+        {
+            uiManager.ShowStatus("Practice Again", Color.red);
+        }
+    }
+
+    public void RestartTraining()
+    {
+        timer = sessionTime;
+        pressCount = 0;
+        bpm = 0;
+        sessionRunning = true;
+
+        uiManager.UpdatePressCount(0);
+        uiManager.UpdateTimer(timer);
+        uiManager.UpdateBPM(0);
+        uiManager.ShowStatus("Restarted", Color.white);
+    }
+
+    public int GetPressCount()
+    {
+        return pressCount;
+    }
+
+    public float GetCurrentBPM()
+    {
+        return bpm;
+    }
+
+    public float GetRemainingTime()
+    {
+        return timer;
     }
 }
