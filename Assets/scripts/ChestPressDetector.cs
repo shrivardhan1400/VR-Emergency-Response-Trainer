@@ -2,41 +2,28 @@ using UnityEngine;
 
 public class ChestPressDetector : MonoBehaviour
 {
-    [Header("References")]
-    public CPRLogic cprLogic;
+    [Header("Reference")]
+    public CPRManager cprManager;
 
-    [Header("Compression Settings")]
-    public float compressionCooldown = 0.35f;
+    private float lastPressTime;
 
-    private float lastCompressionTime = -1f;
+    private void Awake()
+    {
+        if (cprManager == null)
+            cprManager = FindFirstObjectByType<CPRManager>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Hand"))
             return;
 
-        if (Time.time - lastCompressionTime < compressionCooldown)
+        if (Time.time - lastPressTime < 0.2f)
             return;
 
-        lastCompressionTime = Time.time;
+        lastPressTime = Time.time;
 
-        Debug.Log("Chest Compression Detected");
-
-        if (cprLogic != null)
-        {
-            cprLogic.RegisterPress();
-        }
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        BoxCollider box = GetComponent<BoxCollider>();
-
-        if (box != null)
-        {
-            Gizmos.matrix = transform.localToWorldMatrix;
-            Gizmos.DrawWireCube(box.center, box.size);
-        }
+        if (cprManager != null)
+            cprManager.RegisterCompression();
     }
 }

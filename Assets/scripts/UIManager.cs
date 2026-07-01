@@ -1,64 +1,51 @@
-﻿using UnityEngine;
+using UnityEngine;
 using TMPro;
-using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
-    [Header("UI References")]
-    public TextMeshProUGUI pressCountText;
-    public TextMeshProUGUI timerText;
-    public TextMeshProUGUI bpmText;
-    public TextMeshProUGUI statusText;
-
-    private Coroutine statusRoutine;
+    [Header("UI Text References")]
+    public TMP_Text countText;
+    public TMP_Text bpmText;
+    public TMP_Text timerText;
+    public TMP_Text feedbackText;
 
     private void Start()
     {
         UpdatePressCount(0);
-        UpdateTimer(120f);
         UpdateBPM(0);
-        statusText.text = "Waiting...";
-        statusText.color = Color.white;
+        UpdateTimer(0);
+        ShowStatus("Waiting...", Color.white);
     }
 
     public void UpdatePressCount(int count)
     {
-        if (pressCountText != null)
-            pressCountText.text = "Press Count : " + count;
-    }
-
-    public void UpdateTimer(float seconds)
-    {
-        if (timerText == null) return;
-
-        int min = Mathf.FloorToInt(seconds / 60);
-        int sec = Mathf.FloorToInt(seconds % 60);
-
-        timerText.text = $"Time : {min:00}:{sec:00}";
+        if (countText != null)
+            countText.text = "Press Count: " + count;
     }
 
     public void UpdateBPM(float bpm)
     {
         if (bpmText != null)
-            bpmText.text = "CPR Rate : " + Mathf.RoundToInt(bpm) + " BPM";
+            bpmText.text = "BPM: " + Mathf.RoundToInt(bpm);
+    }
+
+    public void UpdateTimer(float time)
+    {
+        if (timerText != null)
+            timerText.text = "Time: " + Mathf.CeilToInt(time);
+    }
+
+    public void ShowStatus(string message)
+    {
+        ShowStatus(message, Color.white);
     }
 
     public void ShowStatus(string message, Color color)
     {
-        if (statusRoutine != null)
-            StopCoroutine(statusRoutine);
-
-        statusRoutine = StartCoroutine(StatusRoutine(message, color));
-    }
-
-    IEnumerator StatusRoutine(string message, Color color)
-    {
-        statusText.text = message;
-        statusText.color = color;
-
-        yield return new WaitForSeconds(2f);
-
-        statusText.text = "Waiting...";
-        statusText.color = Color.white;
+        if (feedbackText != null)
+        {
+            feedbackText.text = message;
+            feedbackText.color = color;
+        }
     }
 }
