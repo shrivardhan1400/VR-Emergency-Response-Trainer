@@ -1,37 +1,51 @@
-﻿
 using UnityEngine;
 using TMPro;
-using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
-    public TextMeshProUGUI countText;
-    public TextMeshProUGUI feedbackText;
+    [Header("UI Text References")]
+    public TMP_Text countText;
+    public TMP_Text bpmText;
+    public TMP_Text timerText;
+    public TMP_Text feedbackText;
 
-    // Update count text
-    public void UpdateCount(int count)
+    private void Start()
     {
-        countText.text = "Press Count: " + count;
+        UpdatePressCount(0);
+        UpdateBPM(0);
+        UpdateTimer(0);
+        ShowStatus("Waiting...", Color.white);
     }
 
-    // Show feedback with optional reset
-    public void ShowFeedback(string message, Color color, float duration, bool resetAfter = true)
+    public void UpdatePressCount(int count)
     {
-        StopAllCoroutines();
-        StartCoroutine(FeedbackRoutine(message, color, duration, resetAfter));
+        if (countText != null)
+            countText.text = "Press Count: " + count;
     }
 
-    IEnumerator FeedbackRoutine(string message, Color color, float duration, bool resetAfter)
+    public void UpdateBPM(float bpm)
     {
-        feedbackText.text = message;
-        feedbackText.color = color;
+        if (bpmText != null)
+            bpmText.text = "BPM: " + Mathf.RoundToInt(bpm);
+    }
 
-        yield return new WaitForSeconds(duration);
+    public void UpdateTimer(float time)
+    {
+        if (timerText != null)
+            timerText.text = "Time: " + Mathf.CeilToInt(time);
+    }
 
-        if (resetAfter)
+    public void ShowStatus(string message)
+    {
+        ShowStatus(message, Color.white);
+    }
+
+    public void ShowStatus(string message, Color color)
+    {
+        if (feedbackText != null)
         {
-            feedbackText.text = "Waiting...";
-            feedbackText.color = Color.white;
+            feedbackText.text = message;
+            feedbackText.color = color;
         }
     }
 }

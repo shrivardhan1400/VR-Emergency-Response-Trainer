@@ -2,30 +2,28 @@ using UnityEngine;
 
 public class ChestPressDetector : MonoBehaviour
 {
-    public CPRLogic cprLogic;
+    [Header("Reference")]
+    public CPRManager cprManager;
 
-    private bool isPressed = false;
+    private float lastPressTime;
+
+    private void Awake()
+    {
+        if (cprManager == null)
+            cprManager = FindFirstObjectByType<CPRManager>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Hand") && !isPressed)
-        {
-            isPressed = true;
+        if (!other.CompareTag("Hand"))
+            return;
 
-            Debug.Log("Chest Press Detected");
+        if (Time.time - lastPressTime < 0.2f)
+            return;
 
-            if (cprLogic != null)
-            {
-                cprLogic.RegisterPress();
-            }
-        }
-    }
+        lastPressTime = Time.time;
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Hand"))
-        {
-            isPressed = false;
-        }
+        if (cprManager != null)
+            cprManager.RegisterCompression();
     }
 }
